@@ -1,0 +1,27 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+div{
+    height: 33.33vh;
+}
+body{
+    background: black;
+}
+#fahrenheit{
+    border-top: 10px white;
+    border-bottom: 10px white;
+}
+input[type=number]{
+    height: 100%;
+    width: 100%;
+    background: black;
+    color: white;
+    text-align: center;
+    font-size: 55px;
+}
+::placeholder{
+    text-align: center;
+    font-size: 55px;
+}
